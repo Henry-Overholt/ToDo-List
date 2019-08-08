@@ -8,7 +8,7 @@
         <div class="stay-in-line">
           {{ i + 1 }}.
           <div class="if-container" *ngIf="task.completed === false">
-            <button class="completed-btn">
+            <button class="completed-btn" (click)="completeTask()">
               Complete
             </button>
           </div>

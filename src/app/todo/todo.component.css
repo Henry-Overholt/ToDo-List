@@ -31,6 +31,10 @@ li {
   display: flex;
   justify-content: space-between;
 }
+button {
+  background: #eee;
+  border: 1px solid #eee;
+}
 .add-btn {
   width: 100%;
   background: #ff1493;
