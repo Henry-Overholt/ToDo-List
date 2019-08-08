@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+.todo-container {
+  font-family: "Open sans";
+  position: relative;
+  left: 50%;
+  font-weight: 300px;
+  transform: translateX(-50%);
+  background: #eee;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+  width: 85%;
+  padding: 10px;
+}
+.completed-btn {
+  color: #ff69b4;
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+}
+.if-container {
+  display: inline;
+}
+input {
+  width: 100%;
+  background: #eee;
+  font-size: 15px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+}
+.add-btn {
+  width: 100%;
+  background: #ff1493;
+  color: white;
+  font-size: 15px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.notcompleted {
+  text-decoration: none;
+}
